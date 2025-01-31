@@ -29,6 +29,7 @@ public class HealthCheckController {
         responseData.put("serverPort", serverPort);
         responseData.put("serverAddress", serverAddress);
         responseData.put("serverName", serverName);
+        responseData.put("name", "LDHH");
 
         return ResponseEntity.ok(responseData);
     }
